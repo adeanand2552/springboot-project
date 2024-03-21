@@ -1,7 +1,11 @@
 body {
-  padding-top: 5rem;
+    padding-top: 5rem;
 }
 .starter-template {
-  padding: 3rem 1.5rem;
-  text-align: center;
+    padding: 3rem 1.5rem;
+    text-align: center; /* Center-align the content */
+    position: absolute; /* Position the container */
+    top: 50%; /* Move the container down by 50% of the viewport height */
+    left: 50%; /* Move the container right by 50% of the viewport width */
+    transform: translate(-50%, -50%); /* Move the container back up and left by half of its own width and height */
 }
